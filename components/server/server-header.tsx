@@ -52,6 +52,7 @@ export const ServerHeader = ({
                 )}
                 {isAdmin && (
                     <DropdownMenuItem
+                        onClick = {() => onOpen("editServer", { server: server })}
                         className =  "px-3 py-2 text-sm cursor-pointer"
                     >
                         Server Settings
@@ -60,6 +61,7 @@ export const ServerHeader = ({
                 )}
                 {isAdmin && (
                     <DropdownMenuItem
+                        onClick = {() => onOpen("members", { server: server })}
                         className =  "px-3 py-2 text-sm cursor-pointer"
                     >
                         Manage Members
