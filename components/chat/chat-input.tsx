@@ -14,7 +14,7 @@ import {
 } from "@/components/ui/form";
 
 import { Input } from "@/components/ui/input";
-import { Plus, Smile } from "lucide-react";
+import { Plus } from "lucide-react";
 import { useModal } from "@/hooks/use-modal-store";
 import { EmojiPicker } from "@/components/emoji-picker";
 import { useRouter } from "next/navigation";
@@ -46,7 +46,7 @@ export const ChatInput = ({
     const { onOpen } = useModal();
     const router = useRouter();
 
-    const isLoading = form.formState.isSubmitting;
+    
     const onSubmit = async (values: z.infer<typeof formSchema>) => {
         try {
             const url = qs.stringifyUrl({
@@ -61,10 +61,12 @@ export const ChatInput = ({
             console.log(error);
         }
     }
+    const isLoading = form.formState.isSubmitting;
     return (
         <Form {...form}>
             <form onSubmit = {form.handleSubmit(onSubmit)}>
                 <FormField 
+                    disabled = {isLoading}
                     control = {form.control}
                     name = "content"
                     render = {({ field }) => (
