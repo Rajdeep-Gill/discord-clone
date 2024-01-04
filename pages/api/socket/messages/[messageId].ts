@@ -93,23 +93,23 @@ export default async function handler(
         }
 
         if (req.method === "DELETE") {
-        message = await db.message.update({
-            where: {
-            id: messageId as string,
-            },
-            data: {
-            fileUrl: null,
-            content: "This message has been deleted.",
-            deleted: true,
-            },
-            include: {
-            member: {
+            message = await db.message.update({
+                where: {
+                    id: messageId as string,
+                },
+                data: {
+                    fileUrl: null,
+                    content: "This message has been deleted.",
+                    deleted: true,
+                },
                 include: {
-                profile: true,
+                    member: {
+                        include: {
+                            profile: true,
+                        }
+                    }
                 }
-            }
-            }
-        })
+            })
         }
 
         if (req.method === "PATCH") {
