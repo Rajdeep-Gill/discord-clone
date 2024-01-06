@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Discord Clone
 
-## Getting Started
+Welcome to the Discord Clone repository! This project is a clone of the Discord platform, aiming to replicate its features, including real-time messaging, voice calls, and video calls.
 
-First, run the development server:
+## Table of Contents
+- [Introduction](#introduction)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Project Hosting](#project-hosting)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Introduction
+Discord Clone is an open-source project that allows users to experience the functionalities of the Discord platform in a self-hosted environment. It provides a familiar interface for real-time communication, fostering collaboration and interaction among users.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
+- Real-time Messaging: Engage in instant text communication with other users.
+- Voice Calls: Make voice calls with friends and colleagues.
+- Video Calls: Conduct video calls to connect on a more personal level.
+- User Authentication: Securely authenticate users to protect their accounts.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Technologies Used
+- TypeScript
+- React
+- Node.js
+- Socket.io
+- Prisma
+- LiveKit
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+> Note: This project is a clone for educational purposes and is not affiliated with or endorsed by Discord.
 
-To learn more about Next.js, take a look at the following resources:
+## Project Hosting
+The Discord Clone project is hosted by Vercel.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Feel free to visit and explore the live version of the Discord Clone!
+[Click Me!](https://discord-clone-git-main-rajdeep-gills-projects.vercel.app/)
