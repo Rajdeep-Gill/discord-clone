@@ -25,11 +25,7 @@ Discord Clone is an open-source project that allows users to experience the func
 - Prisma
 - LiveKit
 
-
-> Note: This project is a clone for educational purposes and is not affiliated with or endorsed by Discord.
-
 ## Project Hosting
 The Discord Clone project is hosted by Vercel.
 
-Feel free to visit and explore the live version of the Discord Clone!
-[Click Me!](https://discord-clone-git-main-rajdeep-gills-projects.vercel.app/)
+Project No longer is active, or hosted
